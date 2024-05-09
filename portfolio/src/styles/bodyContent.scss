@@ -7,4 +7,31 @@
 
 .text-block {
     z-index: 1000;
+    width: 80%;
+    margin: 0 auto;
+    
+    .text {
+        padding-top: 35rem;
+        width: 60%;
+    
+        .text-main {
+            font-size: 2.5rem;
+            font-weight: 800;
+            margin-bottom: 1.5rem;
+            span {
+                font-weight: 800;
+                
+                &::before {
+                    content: 'Prasanna Acharya';
+                    border-bottom: 4px solid white;
+                }
+            }
+        }
+
+        .text-description {
+            font-size: 1.3rem;
+            z-index: 10000;
+        }
+    }
 }
+
