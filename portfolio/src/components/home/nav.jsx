@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import logo from "../../assets/logo.png";
 import "../../styles/nav.scss";
 
@@ -12,10 +12,21 @@ function Nav() {
             <div>OASIS</div>
           </div>
           <div className="nav-menu">
-            <div>Home</div>
-            <div>Resources</div>
-            <div>Blog</div>
-            <div>Whoami</div>
+            <div>
+              <span>$</span>Home
+            </div>
+
+            <div>
+              <span>$</span>Resources
+            </div>
+
+            <div>
+              <span>$</span>Blog
+            </div>
+
+            <div>
+              <span>$</span>Whoami
+            </div>
           </div>
         </div>
       </div>

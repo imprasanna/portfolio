@@ -27,7 +27,13 @@
     font-size: 1.2rem;
     div {
         margin-left: 7rem;
-        cursor: pointer;
+        font-weight: 600;
+        
+        span {
+            color: blue;
+            padding-right: 5px;
+            visibility: hidden;
+        }
     }
 }
 
