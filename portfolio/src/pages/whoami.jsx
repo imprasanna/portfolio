@@ -1,7 +1,7 @@
 import React from "react";
 
-function whoami() {
+function Whoami() {
   return <div>whoami</div>;
 }
 
-export default whoami;
+export default Whoami;
