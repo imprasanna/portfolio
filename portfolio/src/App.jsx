@@ -7,7 +7,7 @@ import Whoami from "./pages/whoami";
 
 function App() {
   return (
-    <>
+    <div className="app">
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
@@ -16,7 +16,7 @@ function App() {
           <Route path="/whoami" element={<Whoami />} />
         </Routes>
       </BrowserRouter>
-    </>
+    </div>
   );
 }
 
