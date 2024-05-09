@@ -1,0 +1,36 @@
+.container {
+    margin: 0 auto;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 3.5rem;
+}
+
+.main-logo {
+    display: flex;
+    align-items: center;
+
+    div {
+        font-weight: 700;
+    }
+}
+
+
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.2rem;
+    div {
+        margin-left: 7rem;
+    }
+}
+
+.outer-container {
+    margin: 0 auto;
+    width: 85%;
+}
