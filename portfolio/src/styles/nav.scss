@@ -30,9 +30,9 @@
         font-weight: 600;
         
         span {
-            color: blue;
+            // color: blue;
             padding-right: 5px;
-            visibility: hidden;
+            // visibility: hidden;
         }
     }
 }
@@ -43,3 +43,17 @@
     position: sticky;
     z-index: 10;
 }
+
+.nav-menu div {
+    color: white; /* Default text color */
+    cursor: default; /* Default cursor */
+    transition: color 0.3s ease; /* Smooth transition for color change */
+  
+    /* Add other common styles for menu items if needed */
+  }
+  
+  /* Add styles for hovered menu items */
+  .nav-menu .hovered {
+    color: blue !important; /* Change text color on hover */
+    cursor: pointer; /* Change cursor on hover */
+  }
