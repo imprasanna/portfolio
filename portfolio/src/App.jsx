@@ -8,6 +8,7 @@ import Whoami from "./pages/whoami";
 function App() {
   return (
     <div className="app">
+      <div className="bg-img"></div>
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />

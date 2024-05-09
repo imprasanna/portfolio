@@ -1,9 +1,16 @@
-body {
-  background: url("assets/bg.jpg");
-    position: absolute;
-    top: 0;
-    right: 0;
-    left: 0;
-    bottom: 0;
+.bg-img {
+  background-image: url("assets/bg.jpg");
+  background-repeat: no-repeat;
+  background-position: cover;
+  background-position: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
 }
 
+.app {
+  height: 100%;
+  width: 100%;
+}

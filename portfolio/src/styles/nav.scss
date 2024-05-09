@@ -1,5 +1,4 @@
 .container {
-    margin: 0 auto;
     height: 5rem;
     display: flex;
     align-items: center;
@@ -13,12 +12,12 @@
 .main-logo {
     display: flex;
     align-items: center;
-
+    user-select: none;
     div {
         font-weight: 800;
+        font-size: 1.5rem;
     }
 }
-
 
 .nav-menu {
     display: flex;
@@ -27,10 +26,13 @@
     font-size: 1.2rem;
     div {
         margin-left: 7rem;
+        cursor: pointer;
     }
 }
 
 .outer-container {
+    width: 80%;
     margin: 0 auto;
-    width: 85%;
+    position: sticky;
+    z-index: 10;
 }
