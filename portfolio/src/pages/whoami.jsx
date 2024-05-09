@@ -1,9 +1,7 @@
-import React from 'react'
+import React from "react";
 
-function Whoami() {
-  return (
-    <div>Whoami</div>
-  )
+function whoami() {
+  return <div>whoami</div>;
 }
 
-export default Whoami
+export default whoami;
