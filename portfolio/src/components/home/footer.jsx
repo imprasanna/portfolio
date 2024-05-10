@@ -9,10 +9,21 @@ function Footer() {
   return (
     <div>
       <div className="footer">
-        <FiInstagram className="social-icon" />
-        <FaLinkedinIn className="social-icon" />
-        <FaGithub className="social-icon" />
-        <BsTwitterX className="social-icon" />
+        <a href="https://www.instagram.com/acharya.prasanna1024/">
+          <FiInstagram className="social-icon" />
+        </a>
+
+        <a href="https://www.linkedin.com/in/prasanna-acharya-30b84b227/">
+          <FaLinkedinIn className="social-icon" />
+        </a>
+
+        <a href="https://github.com/imprasanna">
+          <FaGithub className="social-icon" />
+        </a>
+
+        <a href="https://twitter.com/prasanna1024">
+          <BsTwitterX className="social-icon" />
+        </a>
       </div>
     </div>
   );
