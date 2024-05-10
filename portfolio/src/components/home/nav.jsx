@@ -38,34 +38,42 @@ function Nav() {
               </div>
             </Link>
 
-            <div
-              className={hoveredItem === "Resources" ? "hovered" : ""}
-              onMouseOver={() => handleMouseOver("Resources")}
-              onMouseOut={handleMouseOut}
-            >
-              <span>$</span>
-              Resources
-            </div>
+            <Link to="/resources">
+              <div
+                className={hoveredItem === "Resources" ? "hovered" : ""}
+                onMouseOver={() => handleMouseOver("Resources")}
+                onMouseOut={handleMouseOut}
+              >
+                <span>$</span>
+                Resources
+              </div>
+            </Link>
 
-            <div
-              className={hoveredItem === "Blog" ? "hovered" : ""}
-              onMouseOver={() => handleMouseOver("Blog")}
-              onMouseOut={handleMouseOut}
-            >
-              <span className={hoveredItem === "Blog" ? "hovered" : ""}>$</span>
-              Blog
-            </div>
+            <Link to="/blog">
+              <div
+                className={hoveredItem === "Blog" ? "hovered" : ""}
+                onMouseOver={() => handleMouseOver("Blog")}
+                onMouseOut={handleMouseOut}
+              >
+                <span className={hoveredItem === "Blog" ? "hovered" : ""}>
+                  $
+                </span>
+                Blog
+              </div>
+            </Link>
 
-            <div
-              className={hoveredItem === "Whoami" ? "hovered" : ""}
-              onMouseOver={() => handleMouseOver("Whoami")}
-              onMouseOut={handleMouseOut}
-            >
-              <span className={hoveredItem === "Whoami" ? "hovered" : ""}>
-                $
-              </span>
-              Whoami
-            </div>
+            <Link to="/whoami">
+              <div
+                className={hoveredItem === "Whoami" ? "hovered" : ""}
+                onMouseOver={() => handleMouseOver("Whoami")}
+                onMouseOut={handleMouseOut}
+              >
+                <span className={hoveredItem === "Whoami" ? "hovered" : ""}>
+                  $
+                </span>
+                Whoami
+              </div>
+            </Link>
           </div>
         </div>
       </div>
