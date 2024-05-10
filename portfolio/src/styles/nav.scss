@@ -28,12 +28,6 @@
     div {
         margin-left: 7rem;
         font-weight: 600;
-        
-        span {
-            // color: blue;
-            padding-right: 5px;
-            // visibility: hidden;
-        }
     }
 }
 
@@ -41,19 +35,27 @@
     width: 80%;
     margin: 0 auto;
     position: sticky;
-    z-index: 10;
+    z-index: 999999;
 }
 
 .nav-menu div {
-    color: white; /* Default text color */
-    cursor: default; /* Default cursor */
-    transition: color 0.3s ease; /* Smooth transition for color change */
+    color: white;
+    cursor: pointer;
+    transition: color 0.3s ease;
+
+    span {
+        color: blue !important;
+        padding-right: 5px;
+        visibility: hidden !important;
+    }
+}
   
-    /* Add other common styles for menu items if needed */
-  }
-  
-  /* Add styles for hovered menu items */
-  .nav-menu .hovered {
-    color: blue !important; /* Change text color on hover */
-    cursor: pointer; /* Change cursor on hover */
-  }
+
+.nav-menu .hovered {
+    color: yellow;
+    
+    span {
+        color: blue !important;
+        visibility: visible !important;
+    }
+}

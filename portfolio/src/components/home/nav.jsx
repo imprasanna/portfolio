@@ -3,17 +3,25 @@ import logo from "../../assets/logo.png";
 import "../../styles/nav.scss";
 
 function Nav() {
-  // Define hover state for each menu item separately
   const [hoveredItem, setHoveredItem] = useState(null);
+  const [isHovered, setIsHovered] = useState(false);
 
-  // Function to handle mouseover event
-  const handleMouseOver = (itemName) => {
-    setHoveredItem(itemName);
+  const normalStyle = {
+    visibility: "hidden",
   };
 
-  // Function to handle mouseout event
+  const hoveredStyle = {
+    visibility: "visible",
+  };
+
+  const handleMouseOver = (itemName) => {
+    setHoveredItem(itemName);
+    setIsHovered(true);
+  };
+
   const handleMouseOut = () => {
     setHoveredItem(null);
+    setIsHovered(false);
   };
 
   return (
@@ -27,13 +35,11 @@ function Nav() {
           <div className="nav-menu">
             <div
               className={hoveredItem === "Home" ? "hovered" : ""}
-              onMouseEnter={() => {
-                handleMouseOver("Home");
-                console.log("Hovered");
-              }}
+              onMouseOver={() => handleMouseOver("Home")}
               onMouseOut={handleMouseOut}
             >
-              <span>$</span>Home
+              <span>$</span>
+              Home
             </div>
 
             <div
@@ -41,7 +47,8 @@ function Nav() {
               onMouseOver={() => handleMouseOver("Resources")}
               onMouseOut={handleMouseOut}
             >
-              <span>$</span>Resources
+              <span>$</span>
+              Resources
             </div>
 
             <div
@@ -49,7 +56,8 @@ function Nav() {
               onMouseOver={() => handleMouseOver("Blog")}
               onMouseOut={handleMouseOut}
             >
-              <span>$</span>Blog
+              <span className={hoveredItem === "Blog" ? "hovered" : ""}>$</span>
+              Blog
             </div>
 
             <div
@@ -57,7 +65,10 @@ function Nav() {
               onMouseOver={() => handleMouseOver("Whoami")}
               onMouseOut={handleMouseOut}
             >
-              <span>$</span>Whoami
+              <span className={hoveredItem === "Whoami" ? "hovered" : ""}>
+                $
+              </span>
+              Whoami
             </div>
           </div>
         </div>
