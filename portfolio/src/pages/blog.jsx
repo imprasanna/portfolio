@@ -5,7 +5,17 @@ function Blog() {
   return (
     <div>
       <Nav />
-      Under development!
+      <div
+        style={{
+          fontSize: "2rem",
+          display: "flex",
+          height: "80vh",
+          alignItems: "center",
+          justifyContent: "center",
+        }}
+      >
+        <div>Under development!</div>
+      </div>
     </div>
   );
 }

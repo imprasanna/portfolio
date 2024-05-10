@@ -38,7 +38,7 @@ function Nav() {
               </div>
             </Link>
 
-            <Link to="/resources">
+            <Link to="/resources" style={{ textDecoration: "none" }}>
               <div
                 className={hoveredItem === "Resources" ? "hovered" : ""}
                 onMouseOver={() => handleMouseOver("Resources")}
@@ -49,7 +49,7 @@ function Nav() {
               </div>
             </Link>
 
-            <Link to="/blog">
+            <Link to="/blog" style={{ textDecoration: "none" }}>
               <div
                 className={hoveredItem === "Blog" ? "hovered" : ""}
                 onMouseOver={() => handleMouseOver("Blog")}
@@ -62,7 +62,7 @@ function Nav() {
               </div>
             </Link>
 
-            <Link to="/whoami">
+            <Link to="/whoami" style={{ textDecoration: "none" }}>
               <div
                 className={hoveredItem === "Whoami" ? "hovered" : ""}
                 onMouseOver={() => handleMouseOver("Whoami")}

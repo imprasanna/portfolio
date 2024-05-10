@@ -5,7 +5,17 @@ function Whoami() {
   return (
     <div>
       <Nav />
-      This will be available soon.
+      <div
+        style={{
+          fontSize: "2rem",
+          display: "flex",
+          height: "80vh",
+          alignItems: "center",
+          justifyContent: "center",
+        }}
+      >
+        <div>This will be available soon!</div>
+      </div>
     </div>
   );
 }
