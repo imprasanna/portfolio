@@ -1,5 +1,6 @@
 import React from "react";
 import Nav from "../components/home/nav";
+import "../styles/resources.scss";
 
 const Resources = () => {
   return (
@@ -9,13 +10,13 @@ const Resources = () => {
         <h1>My documentations</h1>
         <ul>
           <li>
-            <a href="https://app.gitbook.com/o/fxVR21uBKOdqyUExlvsb/s/iz2l2usc8AWKK3DkTrmz/">
+            <a href="https://prasannas-organization-1.gitbook.io/hacking-tools/">
               Hacking tools
             </a>
           </li>
 
           <li>
-            <a href="https://app.gitbook.com/o/fxVR21uBKOdqyUExlvsb/s/JPxeRYXcXIfGgY3cEQjH/">
+            <a href="https://prasannas-organization-1.gitbook.io/osint/">
               OSINT
             </a>
           </li>
