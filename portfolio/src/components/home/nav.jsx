@@ -1,10 +1,16 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import logo from "../../assets/logo.png";
 import "../../styles/nav.scss";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 function Nav() {
   const [hoveredItem, setHoveredItem] = useState(null);
+  const [currentPath, setCurrentPath] = useState("");
+  const location = useLocation();
+
+  useEffect(() => {
+    setCurrentPath(location.pathname);
+  }, [location]);
 
   const handleMouseOver = (itemName) => {
     setHoveredItem(itemName);
@@ -27,7 +33,7 @@ function Nav() {
             </div>
           </Link>
           <div className="nav-menu">
-            <Link to="/" style={{ textDecoration: "none" }}>
+            <Link to="/" className={currentPath === "/" ? "" : "inactive"}>
               <div
                 className={hoveredItem === "Home" ? "hovered" : ""}
                 onMouseOver={() => handleMouseOver("Home")}
@@ -38,7 +44,10 @@ function Nav() {
               </div>
             </Link>
 
-            <Link to="/resources" style={{ textDecoration: "none" }}>
+            <Link
+              to="/resources"
+              className={currentPath === "/resources" ? "" : "inactive"}
+            >
               <div
                 className={hoveredItem === "Resources" ? "hovered" : ""}
                 onMouseOver={() => handleMouseOver("Resources")}
@@ -49,7 +58,10 @@ function Nav() {
               </div>
             </Link>
 
-            <Link to="/blog" style={{ textDecoration: "none" }}>
+            <Link
+              to="/blog"
+              className={currentPath === "/blog" ? "" : "inactive"}
+            >
               <div
                 className={hoveredItem === "Blog" ? "hovered" : ""}
                 onMouseOver={() => handleMouseOver("Blog")}
@@ -62,7 +74,10 @@ function Nav() {
               </div>
             </Link>
 
-            <Link to="/whoami" style={{ textDecoration: "none" }}>
+            <Link
+              to="/whoami"
+              className={currentPath === "/whoami" ? "" : "inactive"}
+            >
               <div
                 className={hoveredItem === "Whoami" ? "hovered" : ""}
                 onMouseOver={() => handleMouseOver("Whoami")}
