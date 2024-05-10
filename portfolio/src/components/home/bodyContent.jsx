@@ -14,13 +14,14 @@ function BodyContent() {
             Hi there! I'm <br /> <span>.</span>
           </div>
           <div className="text-description">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
-            cupiditate soluta iste aperiam ipsam voluptatum ad doloremque dolor
-            quia vel commodi, cum omnis assumenda magnam voluptates maxime
-            consequatur libero totam animi molestias quasi repellat magni sed.
-            Officia quasi, ad nam soluta reiciendis enim, necessitatibus ab
-            aspernatur repellendus perferendis commodi quam deserunt beatae eum
-            nesciunt!
+            Based on Nepal, I am a passionate cybersecurity enthusiast, inclined
+            towards offensive security. I have embarked on a journey of
+            self-learning, driving myself with curiosity and thirst for
+            knowledge. My fascination with the field ignited when I realized
+            that the journey itself is the destination -- a continuous
+            exploration of new concepts and strategies. I immerse myself in
+            variety of learning experiences to hone my skills and keep up with
+            my dream as a cybersecurity researcher.
           </div>
         </div>
       </div>
