@@ -3,12 +3,14 @@
     position: absolute;
     right: 10%;
     top: 20%;
+    user-select: none;
 }
 
 .text-block {
-    z-index: 1000;
+    z-index: 100;
     width: 80%;
     margin: 0 auto;
+    user-select: none;
     
     .text {
         padding-top: 35rem;

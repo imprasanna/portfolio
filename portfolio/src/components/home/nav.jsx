@@ -1,18 +1,10 @@
 import React, { useState } from "react";
 import logo from "../../assets/logo.png";
 import "../../styles/nav.scss";
+import { Link } from "react-router-dom";
 
 function Nav() {
   const [hoveredItem, setHoveredItem] = useState(null);
-  const [isHovered, setIsHovered] = useState(false);
-
-  const normalStyle = {
-    visibility: "hidden",
-  };
-
-  const hoveredStyle = {
-    visibility: "visible",
-  };
 
   const handleMouseOver = (itemName) => {
     setHoveredItem(itemName);
@@ -28,19 +20,23 @@ function Nav() {
     <div className="main">
       <div className="outer-container">
         <div className="container">
-          <div className="main-logo">
-            <img className="logo" src={logo} alt="Logo" />
-            <div>OASIS</div>
-          </div>
-          <div className="nav-menu">
-            <div
-              className={hoveredItem === "Home" ? "hovered" : ""}
-              onMouseOver={() => handleMouseOver("Home")}
-              onMouseOut={handleMouseOut}
-            >
-              <span>$</span>
-              Home
+          <Link to="/" style={{ textDecoration: "none" }}>
+            <div className="main-logo">
+              <img className="logo" src={logo} alt="Logo" />
+              <div>OASIS</div>
             </div>
+          </Link>
+          <div className="nav-menu">
+            <Link to="/" style={{ textDecoration: "none" }}>
+              <div
+                className={hoveredItem === "Home" ? "hovered" : ""}
+                onMouseOver={() => handleMouseOver("Home")}
+                onMouseOut={handleMouseOut}
+              >
+                <span>$</span>
+                Home
+              </div>
+            </Link>
 
             <div
               className={hoveredItem === "Resources" ? "hovered" : ""}

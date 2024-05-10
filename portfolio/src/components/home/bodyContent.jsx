@@ -1,11 +1,13 @@
 import React from "react";
 import illustration from "../../assets/illustration.png";
 import "../../styles/bodyContent.scss";
+import { FiInstagram } from "react-icons/fi";
 
 function BodyContent() {
   return (
     <div className="container">
       <img className="illustration" src={illustration}></img>
+
       <div className="text-block">
         <div className="text">
           <div className="text-main">
