@@ -1,0 +1,65 @@
+.container {
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 3.5rem;
+}
+
+.main-logo {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    user-select: none;
+    div {
+        font-weight: 800;
+        font-size: 1.5rem;
+    }
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.2rem;
+    div {
+        margin-left: 7rem;
+        font-weight: 600;
+    }
+}
+
+.outer-container {
+    width: 80%;
+    margin: 0 auto;
+    position: sticky;
+    z-index: 999999;
+}
+
+.nav-menu div {
+    color: white;
+    cursor: pointer;
+    transition: color 0.3s ease;
+
+    span {
+        color: blue !important;
+        padding-right: 5px;
+        visibility: hidden !important;
+    }
+}
+  
+
+.nav-menu .hovered {
+    color: yellow;
+    
+    span {
+        color: blue !important;
+        visibility: visible !important;
+    }
+}
+
+.inactive {
+    text-decoration: none;
+}
