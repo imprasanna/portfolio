@@ -37,3 +37,150 @@
     }
 }
 
+
+// Responsive media queries
+@media (max-width: 1400px) {
+    .illustration {
+        width: 500px;
+    }
+
+    .text {
+        position: relative;
+        bottom: 5rem;
+    }
+}
+
+@media (max-width: 1200px) {
+    .illustration {
+        width: 450px;
+    }
+
+    .text {
+        .text-main {
+            font-size: 2.2rem !important;
+        }
+        .text-description {
+            font-size: 1.1rem !important;
+        }
+    }
+}
+
+@media (max-width: 1070px) {
+    .illustration {
+        width: 420px;
+        right: 8%;
+    }
+
+    .text {
+        position: relative;
+        bottom: 6rem;
+    }
+}
+
+@media (max-width: 1000px) {
+    .illustration {
+        width: 420px;
+        right: 4%;
+    }
+
+    .text {
+        position: relative;
+        bottom: 6rem;
+    }
+}
+
+@media (max-width: 930px) {
+    .illustration {
+        width: 400px;
+        right: 0%;
+    }
+}
+
+@media (max-width: 870px) {
+    .illustration {
+        width: 400px;
+        right: -8%;
+        transform: translateY(25%);
+    }
+
+    .text-block {
+        width: 90%;
+        transform: translateY(8%);
+
+        .text {
+            width: 70%;
+        }
+    }
+}
+
+@media (max-width: 840px) {
+    .illustration {
+        right: -19%;
+    }
+
+    .text-block {
+        width: 90%;
+        .text {
+            width: 70%;
+        }
+    }
+}
+
+@media (max-width: 770px) {
+    .illustration {
+        right: -25%;
+    }
+
+    .text-block {
+        width: 90%;
+        .text {
+            width: 80%;
+        }
+    }
+}
+
+@media (max-width: 770px) {
+    .illustration {
+        right: -25%;
+    }
+
+    .text-block {
+        width: 90%;
+        .text {
+            width: 80%;
+        }
+    }
+}
+
+@media (max-width: 675px) {
+    .illustration {
+        right: -40%;
+        transform: translateY(40%);
+    }
+
+    .text-block {
+        width: 90%;
+        transform: translateY(10%);
+
+        .text {
+            width: 85%;
+        }
+    }
+}
+
+@media (max-width: 675px) {
+    .illustration {
+        right: -40%;
+        transform: translateY(40%);
+    }
+
+    .text-block {
+        width: 90%;
+        transform: translateY(10%);
+
+        .text {
+            width: 85%;
+        }
+    }
+}
+

@@ -8,7 +8,7 @@ const Resources = () => {
       <Nav />
       <div style={{ width: "80%", margin: "0 auto", paddingTop: "3rem" }}>
         <h1>My documentations</h1>
-        <table class="styled-table">
+        <table className="styled-table1">
           <thead>
             <tr>
               <th>Content</th>
@@ -73,8 +73,8 @@ const Resources = () => {
           </tbody>
         </table>
 
-        <h1 className="topic">Bug hunting resources</h1>
-        <table class="styled-table">
+        <h1>Bug hunting resources</h1>
+        <table className="styled-table2">
           <thead>
             <tr>
               <th>Content</th>
