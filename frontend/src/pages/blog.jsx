@@ -12,6 +12,7 @@ function Blog() {
           height: "80vh",
           alignItems: "center",
           justifyContent: "center",
+          textAlign: "center",
         }}
       >
         <div>Under development!</div>

@@ -12,6 +12,7 @@ function Whoami() {
           height: "80vh",
           alignItems: "center",
           justifyContent: "center",
+          textAlign: "center",
         }}
       >
         <div>This will be available soon!</div>
