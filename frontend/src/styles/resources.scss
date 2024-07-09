@@ -1,4 +1,4 @@
-.styled-table1 {
+.styled-table {
     width: 100%;
     border-collapse: collapse;
     margin: 25px 0;
@@ -7,15 +7,15 @@
     margin-bottom: 6rem;
 }
 
-.styled-table1 th, .styled-table1 td {
+.styled-table th, .styled-table td {
     padding: 12px 15px;
 }
 
-.styled-table1 thead tr {
+.styled-table thead tr {
     background-color: #009879;
     text-align: left;
 }
 
-.styled-table1 tbody tr {
+.styled-table tbody tr {
     border-bottom: 1px solid #dddddd;
 }

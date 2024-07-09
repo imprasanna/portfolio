@@ -8,7 +8,7 @@ const Resources = () => {
       <Nav />
       <div style={{ width: "80%", margin: "0 auto", paddingTop: "3rem" }}>
         <h1>My documentations</h1>
-        <table className="styled-table1">
+        <table className="styled-table">
           <thead>
             <tr>
               <th>Content</th>
@@ -74,7 +74,7 @@ const Resources = () => {
         </table>
 
         <h1>Bug hunting resources</h1>
-        <table className="styled-table2">
+        <table className="styled-table">
           <thead>
             <tr>
               <th>Content</th>
@@ -226,7 +226,8 @@ const Resources = () => {
                   <li>
                     <a href="https://www.youtube.com/@BugBountyReportsExplained">
                       https://www.youtube.com/@BugBountyReportsExplained
-                    </a>
+                    </a>{" "}
+                    <br />
                     (BugBountyReportsExplained)
                   </li>
                 </ul>

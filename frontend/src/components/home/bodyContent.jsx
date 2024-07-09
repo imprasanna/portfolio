@@ -5,29 +5,27 @@ import { FiInstagram } from "react-icons/fi";
 
 function BodyContent() {
   return (
-    <div className="container">
-      <div className="wrapper">
+    <>
+      <div className="container">
         <img className="illustration" src={illustration}></img>
 
         <div className="text-block">
-          <div className="text">
-            <div className="text-main">
-              Hi there! I'm <br /> <span>.</span>
-            </div>
-            <div className="text-description">
-              Based on Nepal, I am a passionate cybersecurity enthusiast,
-              inclined towards offensive security. I have embarked on a journey
-              of self-learning, driving myself with curiosity and thirst for
-              knowledge. My fascination with the field ignited when I realized
-              that the journey itself is the destination -- a continuous
-              exploration of new concepts and strategies. I immerse myself in
-              variety of learning experiences to hone my skills and keep up with
-              my dream as a cybersecurity researcher.
-            </div>
+          <div className="text-main">
+            Hi there! I'm <br /> <span>.</span>
+          </div>
+          <div className="text-description">
+            Based on Nepal, I am a passionate cybersecurity enthusiast, inclined
+            towards offensive security. I have embarked on a journey of
+            self-learning, driving myself with curiosity and thirst for
+            knowledge. My fascination with the field ignited when I realized
+            that the journey itself is the destination -- a continuous
+            exploration of new concepts and strategies. I immerse myself in
+            variety of learning experiences to hone my skills and keep up with
+            my dream as a cybersecurity researcher.
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
 }
 
