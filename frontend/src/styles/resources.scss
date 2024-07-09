@@ -1,10 +1,14 @@
+.resources-wrapper {
+    width: 80%;
+}
+
 .styled-table {
     width: 100%;
     border-collapse: collapse;
     margin: 25px 0;
     font-size: 18px;
     text-align: left;
-    margin-bottom: 6rem;
+    margin-bottom: 10rem;
 }
 
 .styled-table th, .styled-table td {
@@ -12,10 +16,25 @@
 }
 
 .styled-table thead tr {
-    background-color: #009879;
+    background-color: #3a5f22;
     text-align: left;
 }
 
 .styled-table tbody tr {
     border-bottom: 1px solid #dddddd;
+}
+
+
+@media (max-width: 490px) {
+    .resources-wrapper div h1 {
+        font-size: 1.5rem;
+    }
+
+    .resources-wrapper {
+        width: 90%;
+    }
+
+    .styled-table {
+        font-size: 1rem;
+    }
 }

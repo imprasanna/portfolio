@@ -104,7 +104,7 @@ export const tableHuntingRes = [
   },
   {
     id: 12,
-    content: "STÖK Fredrick yt",
+    content: "STÖK Fredrik yt",
     link: "https://youtube.com/@STOKfredrik",
     category: "Youtube",
   },
@@ -116,7 +116,7 @@ export const tableHuntingRes = [
   },
   {
     id: 14,
-    content: "InsiderPhD",
+    content: "InsiderPhD yt",
     link: "https://youtube.com/@InsiderPhD",
     category: "Youtube",
   },
