@@ -23,7 +23,7 @@ function Nav() {
   };
 
   return (
-    <div className="main">
+    <>
       <div className="outer-container">
         <div className="container">
           <Link to="/" style={{ textDecoration: "none" }}>
@@ -92,7 +92,7 @@ function Nav() {
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
 }
 

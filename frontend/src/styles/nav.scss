@@ -28,6 +28,15 @@
     div {
         margin-left: 7rem;
         font-weight: 600;
+        color: white;
+        cursor: pointer;
+        transition: color 0.3s ease;
+
+        span {
+            color: blue !important;
+            padding-right: 5px;
+            visibility: hidden !important;
+        }
     }
 }
 
@@ -35,21 +44,8 @@
     width: 80%;
     margin: 0 auto;
     position: sticky;
-    z-index: 999999;
-}
-
-.nav-menu div {
-    color: white;
-    cursor: pointer;
-    transition: color 0.3s ease;
-
-    span {
-        color: blue !important;
-        padding-right: 5px;
-        visibility: hidden !important;
-    }
-}
-  
+    z-index: 9999;
+} 
 
 .nav-menu .hovered {
     color: yellow;
@@ -68,6 +64,23 @@
 
 
 // Responsive media queries
-// @media (max-width: 1400px) {
-    
-// }
+@media (max-width: 1200px) {
+    .container {
+        margin-right: 1rem;
+    }
+    .nav-menu div {
+        margin-left: 5rem;
+    }
+}
+
+@media (max-width: 1000px) {
+    .outer-container {
+        width: 87%;
+    }
+}
+
+@media (max-width: 870px) {
+    .outer-container {
+        width: 92%;
+    }
+}
