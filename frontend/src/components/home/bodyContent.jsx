@@ -5,9 +5,11 @@ import { FiInstagram } from "react-icons/fi";
 
 function BodyContent() {
   return (
-    <>
-      <div className="container">
-        <img className="illustration" src={illustration}></img>
+    <div className="content">
+      <div className="wrapper">
+        <div>
+          <img className="illustration" src={illustration}></img>
+        </div>
 
         <div className="text-block">
           <div className="text-main">
@@ -25,7 +27,7 @@ function BodyContent() {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 
