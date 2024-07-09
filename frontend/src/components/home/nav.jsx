@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import logo from "../../assets/logo.png";
 import "../../styles/nav.scss";
 import { Link, useLocation } from "react-router-dom";
-import { RxHamburgerMenu } from "react-icons/rx";
+import DropdownMenu from "./dropDownMenu";
 
 function Nav() {
   const [hoveredItem, setHoveredItem] = useState(null);
@@ -33,9 +33,7 @@ function Nav() {
           </div>
         </Link>
 
-        <div className="ham-menu">
-          <RxHamburgerMenu className="ham-icon" />
-        </div>
+        <DropdownMenu />
 
         <div className="nav-menu">
           <Link to="/" className={currentPath === "/" ? "" : "inactive"}>
