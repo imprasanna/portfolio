@@ -15,12 +15,10 @@ function Nav() {
 
   const handleMouseOver = (itemName) => {
     setHoveredItem(itemName);
-    setIsHovered(true);
   };
 
   const handleMouseOut = () => {
     setHoveredItem(null);
-    setIsHovered(false);
   };
 
   return (
