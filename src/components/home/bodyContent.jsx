@@ -1,7 +1,6 @@
 import React from "react";
 import illustration from "../../assets/illustration.png";
 import "../../styles/bodyContent.scss";
-import "../../styles/footer.scss";
 import { FiInstagram } from "react-icons/fi";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
