@@ -103,12 +103,6 @@ export const tableHuntingRes = [
     category: "Youtube",
   },
   {
-    id: 12,
-    content: "STÖK Fredrik yt",
-    link: "https://youtube.com/@STOKfredrik",
-    category: "Youtube",
-  },
-  {
     id: 13,
     content: "codingo yt",
     link: "https://youtube.com/@codingo",

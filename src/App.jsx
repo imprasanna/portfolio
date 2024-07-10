@@ -11,7 +11,7 @@ function App() {
       <div className="bg-img"></div>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route exact path="/" element={<Home />} />
           <Route path="/resources" element={<Resources />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/whoami" element={<Whoami />} />
