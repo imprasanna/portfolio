@@ -9,7 +9,7 @@ export const tableDocs = [
   {
     id: 2,
     content: "OSINT",
-    link: "https://prasannas-organization-1.gitbook.io/osints",
+    link: "https://prasannas-organization-1.gitbook.io/osint/",
     description:
       "OSINT (Open Source Intelligence) is a way of investigating through information and resources available publicly. It contains a well organized list of OSINT tools.",
   },
