@@ -16,7 +16,7 @@ export const tableDocs = [
   {
     id: 3,
     content: "eJPTv2 notes",
-    link: "https://www.notion.so/oasis1x1/eJPTv2-ac2ca5313b4d40cdab867485d6e6cbea",
+    link: "https://oasis1x1.notion.site/eJPTv2-ac2ca5313b4d40cdab867485d6e6cbea?pvs=74",
     description:
       "eJPT (e-learning Jr Penetration Tester) is a well-recognized certification for getting entry level job in offensive security. This repository contains the notes for preparing for and passing the eJPT exam.",
   },
