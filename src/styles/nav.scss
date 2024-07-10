@@ -24,12 +24,6 @@
     }
 }
 
-.ham-icon {
-    display: none;
-    color: white;
-    font-size: 1.3rem;
-}
-
 .nav-menu {
     display: flex;
     justify-content: space-between;
@@ -112,18 +106,6 @@
 @media (max-width: 635px) {
     .nav-menu {
         display: none;
-    }
-}
-
-@media (max-width: 635px) {
-    .main-logo {
-        .logo {
-            height: 2.5rem;
-        }
-
-        div {
-            font-size: 1.1rem;
-        }
     }
 }
 

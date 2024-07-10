@@ -27,7 +27,7 @@ const DropdownMenu = () => {
   return (
     <div className="dropdown-menu" ref={menuRef}>
       <div className="dropdown-toggle" onClick={toggleMenu}>
-        <RxHamburgerMenu className="social-icon" />
+        <RxHamburgerMenu className="ham-icon" />
       </div>
       {isOpen && (
         <div className="dropdown-content">
