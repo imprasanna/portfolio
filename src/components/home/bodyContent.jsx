@@ -33,7 +33,7 @@ function BodyContent() {
 
       <div className="footer-wrapper">
         <div className="footer">
-          <a href="https://www.instagram.com/acharya.prasanna1024/">
+          <a href="https://www.instagram.com/i_m_prasanna__/">
             <FiInstagram className="social-icon" />
           </a>
 
