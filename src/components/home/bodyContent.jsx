@@ -5,6 +5,7 @@ import { FiInstagram } from "react-icons/fi";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
 import { BsTwitterX } from "react-icons/bs";
+import { FaMedium } from "react-icons/fa";
 
 function BodyContent() {
   return (
@@ -45,8 +46,12 @@ function BodyContent() {
             <FaGithub className="social-icon" />
           </a>
 
-          <a href="https://twitter.com/prasanna1024">
+          <a href="https://x.com/o4s1s_haaacks">
             <BsTwitterX className="social-icon" />
+          </a>
+
+          <a href="https://medium.com/@prasanna.acharya">
+            <FaMedium className="social-icon" />
           </a>
         </div>
       </div>
