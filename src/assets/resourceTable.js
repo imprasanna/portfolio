@@ -9,7 +9,7 @@ export const tableDocs = [
   {
     id: 2,
     content: "OSINT",
-    link: "https://oasis1x1.notion.site/OSINT-9b5160aaf08e45c189bc8c0b8b2f3510?pvs=4",
+    link: "https://oasis1x1.notion.site/OSINT-9b5160aaf08e45c189bc8c0b8b2f3510",
     description:
       "OSINT (Open Source Intelligence) is a way of investigating through information and resources available publicly. It contains a well organized list of OSINT tools.",
   },
@@ -39,7 +39,7 @@ export const tableHuntingRes = [
   {
     id: 2,
     content: "Bug bounty blueprint: a beginner's guide",
-    link: "https://www.bugbountyhunter.com/disclosed",
+    link: "https://blog.securitybreached.org/2023/08/18/bug-bounty-blueprint-a-beginners-guide/",
     category: "Overall resources",
   },
   {
