@@ -33,7 +33,7 @@ const DropdownMenu = () => {
         <div className="dropdown-content">
           <Link to="/">Home</Link>
           <Link to="/resources">Resources</Link>
-          <Link to="/blog">Blog</Link>
+          {/* <Link to="/blog">Blog</Link> */}
           <Link to="/whoami">Whoami</Link>
         </div>
       )}
