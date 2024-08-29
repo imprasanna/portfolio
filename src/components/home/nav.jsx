@@ -59,7 +59,7 @@ function Nav() {
             </div>
           </Link>
 
-          <Link
+          {/* <Link
             to="/blog"
             className={currentPath === "/blog" ? "" : "inactive"}
           >
@@ -71,7 +71,7 @@ function Nav() {
               <span className={hoveredItem === "Blog" ? "hovered" : ""}>$</span>
               Blog
             </div>
-          </Link>
+          </Link> */}
 
           <Link
             to="/whoami"
