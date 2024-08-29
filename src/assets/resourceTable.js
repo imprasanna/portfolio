@@ -126,4 +126,16 @@ export const tableHuntingRes = [
     link: "https://www.youtube.com/@BugBountyReportsExplained",
     category: "Youtube",
   },
+  {
+    id: 17,
+    content: "Journey to $1500+ in 8 months in bounties by Shreyas Chavhan",
+    link: "https://shreyaschavhan.notion.site/Roadmap-I-followed-to-make-15-000-Bounties-in-my-first-8-months-of-starting-out-and-my-journey-98b1b9ff621645c0b97d1e774992f300",
+    category: "Mindset and Motivation",
+  },
+  {
+    id: 18,
+    content: "Jouney from 0 to $25,700* in 12 months by Shreyas Chavhan",
+    link: "https://shreyaschavhan.notion.site/Year-in-Bug-Bounties-from-0-to-25-700-in-12-months-Stats-Graphs-Learnings-Experiences-Plan-9ccb71a21f874d71be9e112a52620a80",
+    category: "Youtube",
+  },
 ];
