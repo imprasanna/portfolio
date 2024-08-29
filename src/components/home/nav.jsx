@@ -27,7 +27,7 @@ function Nav() {
         <Link to="/" style={{ textDecoration: "none" }}>
           <div className="main-logo">
             <img className="logo" src={logo} alt="Logo" />
-            <div className="logo-text">OASIS</div>
+            <div className="logo-text">o4s1s</div>
           </div>
         </Link>
 
