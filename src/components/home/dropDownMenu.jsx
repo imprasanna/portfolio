@@ -34,9 +34,7 @@ const DropdownMenu = () => {
           <Link to="/">Home</Link>
           <Link to="/resources">Resources</Link>
           {/* <Link to="/blog">Blog</Link> */}
-          <Link className="dropdown-last" to="/whoami">
-            Whoami
-          </Link>
+          <Link to="/whoami">Whoami</Link>
         </div>
       )}
     </div>

@@ -29,8 +29,8 @@
   border-bottom: 1px solid grey;
 }
 
-.dropdown-last {
-  border-bottom: none;
+.dropdown-content a:last-child {
+  border-bottom: none !important;
 }
 
 .ham-icon {
