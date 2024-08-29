@@ -134,7 +134,7 @@ export const tableHuntingRes = [
   },
   {
     id: 18,
-    content: "Jouney from 0 to $25,700* in 12 months by Shreyas Chavhan",
+    content: "Journey from 0 to $25,700* in 12 months by Shreyas Chavhan",
     link: "https://shreyaschavhan.notion.site/Year-in-Bug-Bounties-from-0-to-25-700-in-12-months-Stats-Graphs-Learnings-Experiences-Plan-9ccb71a21f874d71be9e112a52620a80",
     category: "Mindset and Motivation blog",
   },
