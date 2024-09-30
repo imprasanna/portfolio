@@ -30,7 +30,7 @@ export const tableDocs = [
   {
     id: 5,
     content: "OWASP Web Security Testing  Guide Summarized",
-    link: "https://oasis1x1.notion.site/OWASP-Web-Security-Testing-Guide-92e57ccfdb764594a1f82eb028817b88",
+    link: "https://oasis1x1.notion.site/OWASP-Web-Security-Testing-Guide-Summarized-111914493fc7805eae32ea730d392517",
     description:
       "It contains the summary of OWASP WSTG(Web Security Testing Guide), which includes various in-depth methodologies for web penetration testing, provided by OWASP (Open Web Application Security Project)",
   },
