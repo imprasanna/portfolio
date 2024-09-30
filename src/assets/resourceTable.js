@@ -27,6 +27,13 @@ export const tableDocs = [
     description:
       "It contains different tools, resources, methodologies that I followed throughout the journey of learning bug hunting for 100 days.",
   },
+  {
+    id: 5,
+    content: "OWASP Web Security Guide Testing Summarized",
+    link: "https://oasis1x1.notion.site/Bug-hunting-https://oasis1x1.notion.site/OWASP-Web-Security-Testing-Guide-92e57ccfdb764594a1f82eb028817b88",
+    description:
+      "It contains the summary of OWASP WSTG(Web Security Testing Guide), which includes various in-depth methodologies for web penetration testing, provided by OWASP (Open Web Application Security Project)",
+  },
 ];
 
 export const tableHuntingRes = [
