@@ -24,7 +24,13 @@ const Resources = () => {
               {tableDocs.map((doc) => (
                 <tr key={doc.id}>
                   <td>
-                    <a href={doc.link}>{doc.content}</a>
+                    <a
+                      href={doc.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {doc.content}
+                    </a>
                   </td>
                   <td>{doc.description}</td>
                 </tr>
@@ -46,7 +52,13 @@ const Resources = () => {
               {tableHuntingRes.map((resource) => (
                 <tr key={resource.id}>
                   <td>
-                    <a href={resource.link}>{resource.content}</a>
+                    <a
+                      href={resource.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {resource.content}
+                    </a>
                   </td>
                   <td>{resource.category}</td>
                 </tr>
