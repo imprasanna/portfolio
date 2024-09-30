@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import logo from "../../assets/logo.png";
+import logo from "../../assets/hack.jpg";
 import "../../styles/nav.scss";
 import { Link, useLocation } from "react-router-dom";
 import DropdownMenu from "./dropDownMenu";
