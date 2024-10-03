@@ -34,6 +34,13 @@ export const tableDocs = [
     description:
       "It contains the summary of OWASP WSTG(Web Security Testing Guide), which includes various in-depth methodologies for web penetration testing, provided by OWASP (Open Web Application Security Project)",
   },
+  {
+    id: 6,
+    content: "TryHackMe Penetration Testing Notes",
+    link: "https://oasis1x1.notion.site/TryHackMe-7f93c11779424e77a23829d78233f34d?pvs=4",
+    description:
+      "TryHackMe is an online cyber security training platform to help individuals and teams break into and up skill in cyber security. This repository consists of some important notes summarized from some paths of TryHackMe and can be helpful for penetratin testing purpose.",
+  },
 ];
 
 export const tableHuntingRes = [
