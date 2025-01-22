@@ -24,7 +24,7 @@ function BodyContent() {
             towards offensive security. I have embarked on a journey of
             self-learning, driving myself with curiosity and thirst for
             knowledge. My fascination with the field ignited when I realized
-            that the journey itself is the destination -- a continuous
+            that the journey itself is the destination with a continuous
             exploration of new concepts and strategies. I immerse myself in
             variety of learning experiences to hone my skills and keep up with
             my dream as a cybersecurity researcher.
@@ -34,11 +34,11 @@ function BodyContent() {
 
       <div className="footer-wrapper">
         <div className="footer">
-          <a href="https://www.instagram.com/i_m_prasanna__/">
+          <a href="https://www.instagram.com/__a.prasanna__/">
             <FiInstagram className="social-icon" />
           </a>
 
-          <a href="https://www.linkedin.com/in/prasanna-acharya-30b84b227/">
+          <a href="https://www.linkedin.com/in/prasanna-acharya/">
             <FaLinkedinIn className="social-icon" />
           </a>
 
@@ -46,7 +46,7 @@ function BodyContent() {
             <FaGithub className="social-icon" />
           </a>
 
-          <a href="https://x.com/o4s1s_haaacks">
+          <a href="https://x.com/who.is.oasis">
             <BsTwitterX className="social-icon" />
           </a>
 
